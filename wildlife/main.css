@@ -1,0 +1,292 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(241, 199, 241);
+    color:black;
+}
+header
+{
+    background-color: plum;
+    padding: 20px;
+    color: white;
+
+}
+nav
+{
+    padding-top: 20px;
+    text-align: right;
+}
+nav ul
+{
+    list-style-type: none;
+
+}
+nav ul li{
+    display: inline;
+    padding-right: 30px;
+}
+nav ul li a{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-right: 20px;
+    font-weight:600;
+    text-decoration: none;
+    border-radius: 25px;
+    text-align: center;
+    padding: 12px;
+
+}
+nav ul li a:hover{
+background-color: rgb(148, 89, 148);
+color:whitesmoke;
+}
+#banner
+{
+   
+    padding: 300px;
+    background-image: linear-gradient(to bottom,
+    rgba(197, 82, 178, 0.6)0%,
+    rgba(39, 9, 28, 0.6)280%
+
+    ),url('images/image.jpg');
+
+    text-align: center;
+    background-size:cover;
+}
+#banner h1{
+    color: white;
+    opacity: 68%;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   
+}
+#banner p{
+    color:black;
+    font-size: 15px;
+    opacity: 68%;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+
+
+}
+
+#banner button
+{
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: 500px;
+    background-color: plum;
+    border-color:transparent;
+    color: rgb(59, 4, 4);
+
+
+}
+#banner button:hover{
+    background-color: rgb(148, 89, 148);
+    color: white;
+    opacity: 20;
+}
+#causes {
+    background-image: linear-gradient(to bottom,
+    rgba(236, 198, 230, 0.6) 0%,
+    rgba(39, 9, 28, 0.6) 280%
+    );
+    padding: 5rem 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#cause-title {
+    font-size: 46px;
+    padding: 30px;
+    color: rgb(98, 11, 11);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    
+   
+}
+
+#causes img {
+    opacity: 78%;
+    height: 300px;
+    border-color: transparent;
+    border-radius: 15px;
+    width: 100%; 
+ 
+}
+
+.cause {
+    margin-top: 20px;
+    background-color: rgb(233, 205, 238);
+    color: wheat;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 15px;
+    flex: 1 1 200px; /* Grow and shrink, base width of 300px */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for better visual separation */
+    
+}
+.cause button
+{margin-top: 10px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    border-radius: 20px;
+    font-weight: 500px;
+    background-color: plum;
+    border-color:transparent;
+    color: rgb(59, 4, 4);
+
+
+}
+.cause button:hover{
+    background-color: rgb(148, 89, 148);
+    color: white;
+    opacity: 20;
+}
+.cause h3,p{
+    color: rgb(53, 11, 53);
+    padding:8px;
+}
+
+#about {
+    padding: 3rem;
+  
+    background-color:rgb(233, 205, 238); /* Light background color */
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+#about h2 {
+    color: rgb(78, 12, 12); /* Dark red color */
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+  
+}
+
+#about h3 {
+    color: rgb(78, 12, 12); /* Dark red color */
+    font-size: 30px;
+    margin-top: 2rem; /* Spacing above the heading */
+    margin-bottom: 1rem; /* Spacing below the heading */
+    border-bottom: 2px solid rgb(78, 12, 12); /* Bottom border for emphasis */
+
+}
+
+#about p {
+    line-height: 1.6; /* Improve readability */
+    /* Spacing below paragraphs */
+    font-size:18px ;
+}
+
+#about ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+}
+
+#about ul li {
+    background-color: #ffffff; /* White background for list items */
+    border: 1px solid #ddd; /* Light border around list items */
+    border-radius: 5px; /* Rounded corners for list items */
+    padding: 1rem; /* Padding inside list items */
+
+}
+
+#about ul li h4 {
+    color: rgb(78, 12, 12); /* Dark red color for subheadings */
+    font-size: 20px; /* Font size for subheadings */
+    margin: 0 0 0.5rem; /* Margin below the subheading */
+}
+
+#about ul li p {
+    margin: 0; /* Remove default margin from paragraphs in list items */
+}
+#contact {
+    padding: 3rem;
+    text-align: center;
+    align-items: center;
+}
+
+#contact h2 {
+    color: rgb(78, 12, 12);
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#contact button {
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    border-radius: 20px;
+    font-weight: 500;
+    background-color: plum;
+    border: transparent;
+    color: rgb(59, 4, 4);
+}
+
+#contact button:hover {
+    background-color: rgb(148, 89, 148);
+    color: white;
+    opacity: 0.8; /* Adjust opacity to a value between 0 and 1 */
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-aligns form elements horizontally */
+    margin: 0 auto; /* Centers the form itself within its container */
+    width: 50%; /* Adjust width as needed */
+}
+
+#contact label {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+#contact input,
+#contact textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Make inputs and textareas fill the form width */
+    max-width: 400px; /* Optional: limit the maximum width of inputs */
+}
+
+#sname,#ssub,#semail,#smsg,#ssubmit
+{
+    margin-bottom: 8px;
+    font-size: 18px;
+    margin-top:8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+    
+footer
+{
+    text-align: center;
+    background-color: rgb(183, 115, 183);
+    width:auto;
+    padding: 10px;
+    
+
+}
+footer p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
